@@ -35,13 +35,13 @@ class QualityChecker {
 
 class Product1QualityChecker extends QualityChecker {
   makeProduct() {
-    return new Product1;
+    return new Product1();
   }
 }
 
 class Product2QualityChecker extends QualityChecker {
   makeProduct() {
-    return new Product2;
+    return new Product2();
   }
 }
 
