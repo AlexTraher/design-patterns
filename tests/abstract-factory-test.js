@@ -2,7 +2,7 @@ const { describe, it } = require('mocha');
 const assert = require('assert');
 const { AstroturfPitchHire, GrassPitchHire } = require('../creational/abstract-factory/abstract-factory');
 
-describe('Abstract factory example example', function() {
+describe('Abstract factory example', function() {
 
   it('should generate the correct pitch and groundskeeper for an astroturf pitch', function() {
     const astroHire = new AstroturfPitchHire();
