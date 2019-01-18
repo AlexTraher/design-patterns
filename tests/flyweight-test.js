@@ -47,7 +47,6 @@ describe('Flyweight example', function() {
     const treeTypeOne = treeFactory.getTreeType('oak');
     const treeTypeTwo = treeFactory.getTreeType('oak');
 
-
     // our flyweight here will be shared amongst all trees that are 'oak'
     assert.ok(treeTypeOne == treeTypeTwo);
   });
