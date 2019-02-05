@@ -4,7 +4,7 @@
   "description": "A set of design pattern examples",
   "main": "index.js",
   "scripts": {
-    "test": "mocha tests/interpreter-test.js"
+    "test": "mocha tests/*.js"
   },
   "author": "alex.traher@gmail.com",
   "license": "ISC",
